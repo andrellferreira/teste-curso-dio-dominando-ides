@@ -43,8 +43,10 @@ public class Gato {
 	@Override
 	public int hashCode() {
 		return Objects.hash(cor, idade, nome);
+		
 	}
 
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
